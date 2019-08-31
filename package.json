@@ -1,0 +1,11 @@
+{
+  "name": "code-validator",
+  "version": "1.0.0",
+  "author": "Jacob Knaack",
+  "description": "A package for testing similarities in project structures and code composition",
+  "dependencies": {
+    "@octokit/rest": "^16.28.7",
+    "git-clone": "^0.1.0",
+    "parse-github-url": "^1.0.2"
+  }
+}
