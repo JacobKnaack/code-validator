@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "author": "Jacob Knaack",
   "description": "A package for testing similarities in project structures and code composition",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "mkdir -p test_source && mkdir -p repo_source"
+  },
   "dependencies": {
     "@octokit/rest": "^16.28.7",
     "git-clone": "^0.1.0",
+    "jsdiff": "^1.1.1",
     "parse-github-url": "^1.0.2"
   }
 }
